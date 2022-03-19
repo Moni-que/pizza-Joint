@@ -1,17 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #first{
-    display: flex;
-    justify-content: space-between;
+    padding: 145px;
+}
+button{
+    background-color: red;
+    margin-left: 400px;
+    padding: 20px;
+    border-radius: 10px;
 }
 h1{
     color: #D79914;
-    margin: 50px;
-}
-.image-1{
-    margin-top: 50px;
 }
 p{
     color: white;
     font-family: risque;
     font-size: x-large;
-    margin-top: 60px;
+}
+h2{
+    color: #D79914;
+    font-family: Quattrocento;
+    font-size: 50px;
+    margin-top: 70px;
 }
