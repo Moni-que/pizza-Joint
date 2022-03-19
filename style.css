@@ -2,3 +2,16 @@
     display: flex;
     justify-content: space-between;
 }
+h1{
+    color: #D79914;
+    margin: 50px;
+}
+.image-1{
+    margin-top: 50px;
+}
+p{
+    color: white;
+    font-family: risque;
+    font-size: x-large;
+    margin-top: 60px;
+}
