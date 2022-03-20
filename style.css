@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 #pizzajoint{
     padding-top: 60px;
 }
@@ -47,4 +50,38 @@ a{
 }
 #icon{
     color: #ffffff;
+}
+.choice{
+    display: flex;
+}
+.two-buttons{
+    margin-top: 100px;
+}
+.two-buttons p{
+    font-size: 30px;
+    color: #D79914;
+}
+#all{
+    padding-top: 5px;
+}
+.my-details input{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 130px;
+}
+h4{
+    padding: 20px;
+}
+#icon-2{
+    background-color: white;
+    margin-top: 100px;
+    border: #D79914 solid 2px;
+    border-radius: 5px;
+}
+h4{
+    color: #D79914;
+}
+input{
+    /* color: white; */
 }

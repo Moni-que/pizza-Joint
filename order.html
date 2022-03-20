@@ -12,37 +12,57 @@
 <body>
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-6">
-                <h4>Choose Size</h4>
-                <input id="size" type = "radio" name = "size" value="Small">Small
-                <input id="size" type = "radio" name = "size" value="Medium">Medium
-                <input id="size" type = "radio" name = "size" value="Large">Large
-                <h4>Choose Crust</h4>
-                <input id="crust" type = "radio" name = "crust" value="Small">Cripsy
-                <input id="crust" type = "radio" name = "crust" value="Medium">Stuffed
-                <input id="crust" type = "radio" name = "crust" value="Large">Glutten-free
-                <h4>Choose Topping</h4>
-                <input id="topping" type = "radio" name = "topping" value="Small">Onions
-                <input id="topping" type = "radio" name = "topping" value="Medium">Chicken
-                <input id="topping" type = "radio" name = "topping" value="Large">Sausage
-                <input id="topping" type = "radio" name = "topping" value="Large">Mushroom
-                <input id="topping" type = "radio" name = "topping" value="Large">Bacon
+            <div class="col-lg-6" id="all">
+                <div class="inputs">
+                    <h4>Choose Size</h4>
+                    <select id="size" name = "size">
+                        <option value="size">Small</option>
+                        <option value="size">Medium</option>
+                        <option value="size">Large</option>
+                    </select>
+                    <!-- <input id="size" type = "radio" name = "size" value="Medium">Medium
+                    <input id="size" type = "radio" name = "size" value="Large">Large -->
+                    <h4>Choose Crust</h4>
+                    <select name="crust" id="crust">
+                        <option value="crust">Cripsy</option>
+                        <option value="crust">Stuffed</option>
+                        <option value="crust">Glutten-free</option>
+                    </select>
+                    <!-- <input id="crust" type = "radio" name = "crust" value="Small">Cripsy
+                    <input id="crust" type = "radio" name = "crust" value="Medium">Stuffed
+                    <input id="crust" type = "radio" name = "crust" value="Large">Glutten-free -->
+                    <h4>Choose Topping</h4>
+                    <select name="topping" id="topping">
+                        <option value="crust">Onions</option>
+                        <option value="crust">Chicken</option>
+                        <option value="crust">Sausage</option>
+                        <option value="crust">Mushroom</option>
+                        <option value="crust">Bacon</option>
+                    </select>
+                    <!-- <input id="topping" type = "radio" name = "topping" value="Small">Onions
+                    <input id="topping" type = "radio" name = "topping" value="Medium">Chicken
+                    <input id="topping" type = "radio" name = "topping" value="Large">Sausage
+                    <input id="topping" type = "radio" name = "topping" value="Large">Mushroom
+                    <input id="topping" type = "radio" name = "topping" value="Large">Bacon -->
+                </div>
                 <div class="details">
-                    <form>
+                    <form class="my-details">
                         <h4>DETAILS</h4>
-                        Name <input type="text">
-                        Phone number <input type="number">
-                        Email address <input type="text">
+                        <input type="text" placeholder="Name">
+                        <input type="number" placeholder="Phone number ">
+                        <input type="email" placeholder="Email address">
                     </form>
                     <button>ORDER NOW</button>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="" alt="">
-                <p>Do you want your <br> pizza delivered?</p>
-                <div class="choice">
-                    <button>YES</button>
-                    <BUtton>NO</BUtton>
+                <img src="./images/bike.svg" height="80px" alt="bike" id="icon-2">
+                <div class="two-buttons">
+                    <p>Do you want your <br> pizza delivered?</p>
+                    <div class="choice">
+                        <button>YES</button>
+                        <BUtton>NO</BUtton>
+                    </div>
                 </div>
             </div>
         </div>
