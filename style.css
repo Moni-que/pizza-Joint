@@ -88,16 +88,25 @@ select{
     padding-bottom: 10px;
     margin-top: 50px;
 }
-/* ::placeholder{
-    color: white;
-    background: red;
-} */
-/* .inputs::option{
-    color: white;
-} */
 #total{
     background-color: red;
     color: #ffffff;
     margin-top: 80px;
     padding: 10px 60px;
+}
+.menu{
+    font-size: 30px;
+    margin: 20px;
+}
+#row-1 p{
+    font-size: 25px;
+}
+#row-2 p{
+    font-size: 25px;
+}
+#row-2 img{
+    border-radius: 5px;
+}
+#row-1 img{
+    border-radius: 5px;
 }
