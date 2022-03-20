@@ -35,5 +35,9 @@ p{
 h2{
     color: #D79914;
     font-family: Quattrocento;
-        /* margin-top: 70px; */
+        margin-top: 70px;
+        font-size: 90px;
+}
+#row{
+    margin-top: 50px;
 }
