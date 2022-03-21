@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="order.html">ORDER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-6" id="all">
@@ -20,17 +38,12 @@
                         <option value="size">Medium</option>
                         <option value="size">Large</option>
                     </select>
-                    <!-- <input id="size" type = "radio" name = "size" value="Medium">Medium
-                    <input id="size" type = "radio" name = "size" value="Large">Large -->
                     <h4>Choose Crust</h4>
                     <select name="crust" id="crust">
                         <option value="crust">Cripsy</option>
                         <option value="crust">Stuffed</option>
                         <option value="crust">Glutten-free</option>
                     </select>
-                    <!-- <input id="crust" type = "radio" name = "crust" value="Small">Cripsy
-                    <input id="crust" type = "radio" name = "crust" value="Medium">Stuffed
-                    <input id="crust" type = "radio" name = "crust" value="Large">Glutten-free -->
                     <h4>Choose Topping</h4>
                     <select name="topping" id="topping">
                         <option value="crust">Onions</option>
@@ -39,11 +52,6 @@
                         <option value="crust">Mushroom</option>
                         <option value="crust">Bacon</option>
                     </select>
-                    <!-- <input id="topping" type = "radio" name = "topping" value="Small">Onions
-                    <input id="topping" type = "radio" name = "topping" value="Medium">Chicken
-                    <input id="topping" type = "radio" name = "topping" value="Large">Sausage
-                    <input id="topping" type = "radio" name = "topping" value="Large">Mushroom
-                    <input id="topping" type = "radio" name = "topping" value="Large">Bacon -->
                 </div>
                 <div class="details">
                     <form class="my-details">
