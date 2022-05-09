@@ -1,6 +1,13 @@
 # pizza-Joint
 
 ##### By Monicah Maina
+
+### Screenshot of the App
+
+![Screenshot from 2022-05-09 05-54-03](https://user-images.githubusercontent.com/93192319/167332809-65bad784-6403-4e2f-bacd-543e59b2d3d9.png)
+![Screenshot from 2022-05-09 05-54-30](https://user-images.githubusercontent.com/93192319/167332823-b93b2ffa-3ece-46fa-a75f-5166703ed35d.png)
+
+
 ### It is a pizza website independent project.
 
 ## Table of Content
